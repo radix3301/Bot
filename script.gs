@@ -205,7 +205,7 @@ function sayText(text, userId, authToken, senderName, senderAvatar, trackingData
   }
 
   //Logger.log(options);
-  var result =  UrlFetchApp.fetch('https://chatapi.viber.com/pa/send_message', options);
+  var result =  UrlFetchApp.fetch('https://viberbotrteterst.herokuapp.com/', options);
 
   Logger.log(result);
 }
